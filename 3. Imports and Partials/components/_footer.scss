@@ -1,0 +1,30 @@
+@use './variables' as e;
+
+/* Footer */
+footer{
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    input{
+        padding:10px 20px;
+        margin-bottom: 20px;
+        text-transform: capitalize;
+    }
+
+    textarea{
+        padding:20px;
+        width:430px;
+        height:200px;
+        margin-bottom: 20px;
+        text-transform: capitalize;
+    }
+    a{
+        text-decoration: none;
+        color:e.$colorText;
+        background:e.$colorButton;
+        padding:10px 20px;
+        font-family: sans-serif;
+    }
+}

@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@mixin button-styles{
+  padding:10px 20px;
+  background: teal;
+  border:none;
+  cursor: pointer;
+  color:white;
+  margin:20px;
+}
+
+.lm-btn{
+  @include button-styles;
+}
+.d-btn{
+  @include button-styles;
+  background: rgb(109, 241, 83);
+  font-family: serif;
+}

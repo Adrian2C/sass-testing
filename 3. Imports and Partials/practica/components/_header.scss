@@ -1,0 +1,9 @@
+/* este recibe las variables de colores, y las usa en el archivo */
+
+@use './variables' as c;
+
+header{
+    height:50vh;
+    background:skyblue;
+    color: c.$colorH;
+}

@@ -1,0 +1,7 @@
+@use './variables' as c;
+
+article{
+    height:10vh;
+    background:teal;
+    color:c.$colorA;
+}

@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.btn{
+  //reset
+  background: transparent;
+  border:none;
+  //style
+  background:rgb(210,22,94);
+  padding:10px 20px;
+  cursor: pointer;
+  color:#fff;
+  margin:10px;
+}
+.download-btn{
+  @extend .btn;
+  background-color: green;
+}
+.black-btn{
+  @extend .btn;
+  background-color: black;
+  border-radius: 20px;
+}
