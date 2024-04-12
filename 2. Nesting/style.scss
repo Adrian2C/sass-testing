@@ -1,0 +1,38 @@
+$bg-image-center:no-repeat center/cover;
+$mainC:white;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+    background: url(sebastian-svenson-d2w-_1LJioQ-unsplash.jpg) $bg-image-center;
+    background:black;
+    height:100vh; 
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    ul{
+      font-family: sans-serif;
+      margin-bottom: 1.5rem;
+    
+    }
+    li{
+      display: inline;
+      list-style: none;
+      
+      a{
+        color:$mainC;
+        margin:20px;
+        text-decoration: none;
+        padding-bottom: 5px;
+      }
+      &:hover{
+        border-bottom: 1px solid $mainC;
+      }
+    }
+
+}
